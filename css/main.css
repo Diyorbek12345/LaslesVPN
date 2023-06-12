@@ -207,8 +207,12 @@ transform: scale(1.2);
 }
 
 @media screen and (max-width:450px){
+.main_header__container{
+  padding-right: 100px;
+}
+
     .nav__logo {
-      max-width: 140px;
+      max-width: 50px;
         flex-shrink: 0;
         margin-right: 100px;
       }
@@ -217,4 +221,13 @@ transform: scale(1.2);
         gap: 20px;
         margin-left: 50px;
       }
+      .nav__img{
+        margin-right: 20px;
+      }
+
+      .signin2{
+
+        margin-right: 20px;
+      }
+      
 }
