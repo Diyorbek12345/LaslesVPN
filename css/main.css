@@ -195,8 +195,25 @@ transform: scale(1.2);
 
 
 @media screen and (max-width:500px) {
+
+  .nav__logo{
+    flex-shrink: 0;
+    margin-right: 100px;
+  }
   .nav__btns{
     gap: 20px;
     margin-left: 50px;
   }
+}
+
+@media screen and (max-width:450px){
+    .nav__logo {
+        flex-shrink: 0;
+        margin-right: 100px;
+      }
+    
+      .nav__btns {
+        gap: 20px;
+        margin-left: 50px;
+      }
 }
