@@ -182,6 +182,9 @@ body {
 }
 
 @media screen and (max-width:516px) {
+  .main_header__logo{
+    max-width: 100px;
+  }
   .nav-end{
     display: flex;
     align-items: center;
