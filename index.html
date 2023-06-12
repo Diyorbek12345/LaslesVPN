@@ -25,55 +25,46 @@
   <body>
     <header id="main_header">
       <nav>
-        <div class="container main_header__container">
-          <div class="nav__logo">
-            <img src="./img/Logo.svg" alt="logo" />
-          </div>
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a class="nav__link" href="#About">About</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#Features">Features</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#Pricing">Pricing</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#Testimonials">Testimonials</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#Help">Help</a>
-            </li>
-          </ul>
-          <div class="nav__btns">
-            <div class="nav__img">
-              <img class="img" src="./img/menu.svg" alt="menu" />
-              <div class="signin2">
-                <a href="#">sign in</a>
-              </div>
-              <a class="nav__btn" href="#">Sign Up</a>
-            </div>
-          </div>
+     <div class="container main_header__container">
+        <a class="main_header__logo" href="#">
+          <img src="./img/Logo.svg" alt="img">
+        </a>
+        <ul class="main_header__list">
+          <li class="main_header__item"><a class="main_header__link" href="#About">About</a>
+          </li>
+          <li class="main_header__item"><a class="main_header__link" href="#Features">Features</a>
+          </li>
+          <li class="main_header__item"><a class="main_header__link" href="#Pricing">Pricing</a>
+          </li>
+          <li class="main_header__item"><a class="main_header__link" href="#Testimonials">Testimonials</a>
+          </li>
+          <li class="main_header__item"><a class="main_header__link" href="#Help">Help</a>
+          </li>
+        </ul>
+        <div class="nav-end">
+          <button class="nav__dark"><img src="./img/dark.svg" alt="light"></button>
+          <a class="main_header__btn" href="#">Sign in</a>
+          <a class="main_header__btn2" href="#">Sign Up</a>
         </div>
-        <div class="container navbar-responsive">
-              <ul class="nav-res__list">
-                <li class="nav-res__item">
-                  <a class="nav-res__link" href="#About">About</a>
-                </li>
-                <li class="nav-res__item">
-                  <a class="nav-res__link" href="#Features">Features</a>
-                </li>
-                <li class="nav-res__item">
-                  <a class="nav-res__link" href="#Pricing">Pricing</a>
-                </li>
-                <li class="nav-res__item">
-                  <a class="nav-res__link" href="#Testimonials">Testimonials</a>
-                </li>
-                <li class="nav-res__item">
-                  <a class="nav-res__link" href="#Help">Help</a>
-                </li>
-              </ul>
+         <button class="hamburger" id="navbar-open">
+          <img src="./img/menu.svg" alt="img">
+         </button>
+        </div>
+        <div id="navbar-responsive">
+         <ul class="main_header-res__list">
+           <li class="main_header-res__item"><a class="main_header-res__link" href="#About">About</a>
+           </li>
+           <li class="main_header-res__item"><a class="main_header-res__link" href="#Features">Features</a>
+           </li>
+           <li class="main_header-res__item"><a class="main_header-res__link" href="#Pricing">Pricing</a>
+           </li>
+           <li class="main_header-res__item"><a class="main_header-res__link" href="#Testimonials">Testimonials</a>
+           </li>
+           <li class="main_header-res__item"><a class="main_header-res__link" href="#Help">Help</a>
+           </li>
+           <button id="navbar-close">
+            <img src="./img/close.svg" alt="img">
+           </button>
         </div>
       </nav>
     </header>
@@ -150,5 +141,6 @@
         },
       });
     </script>
+    <script src="js/main.js"></script>
   </body>
 </html>
